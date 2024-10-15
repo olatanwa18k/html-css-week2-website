@@ -1,0 +1,527 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Health Insurance</title>
+		<style type="text/css">
+		body{
+			font-family:arial, sans-serif;
+			background-color:white;
+			padding:0 auto;
+			margin:0 auto;
+		}
+		.outer{
+			height:60px;
+			background:linear-gradient(to bottom right,brown,black);
+			
+		}
+		#inner{
+			display:flex;
+			height:150px;
+			flex-direction:rows;
+			justify-content:space-around;
+			top:4px;
+			position:sticky;
+			border-radius:20px;
+			
+		}
+		#inner1{
+			width:10%;
+			border:none;
+			background:linear-gradient(to bottom right,brown,black);
+		}
+		#inner1 img{	
+			width:100%;
+			height:100%;
+			top:-10px;
+			left:-10px;
+			position:relative;
+			
+			
+		}
+		#inner2{
+			width:95%;
+			background-color:linear-gradient(bottom to right,brown,black);
+			background-color:white;
+		}
+		#inner2 ul li a:hover{
+			background-color:brown;
+			color:black;
+		}
+		.box{
+			height:500px;
+			display:flex;
+			flex-direction:rows
+			justify-content:space-around;
+			color:white;
+			
+			}
+			#get{
+				color:black;
+			}
+		.box1{
+			width:50%;
+			padding:30px;	
+			background-color:#6b0f1a;
+			background:linear-gradient(to bottom left,brown,black);			
+		}
+		#paraone{
+			width:350px;
+			height:100px;
+			display:flex;
+			flex-direction:rows;
+			justify-content:space-between;
+			right:10px;
+			bottom:10px;
+			position:fixed;
+			background:linear-gradient(to bottom right,brown,black);
+			padding:5px;
+
+		}
+	
+		.cover{
+			height:350px;
+			display:flex;
+			flex-direction:rows
+			justify-content:space-between;
+			color:red;
+			padding:0px;
+			text-align:center;
+			border-radius:50px;
+		}
+		.cove{
+			width:25%;
+			padding:20px;
+			border-radius:50px;
+			border:15px solid brown;
+			border-style:groove;
+			background-color:ghostwhite;
+			background:radial-gradient(ellipse,wheat,white);
+		}
+		.boxes{
+			height:200px;
+			text-align:center;
+			background-color:black;
+			padding-top:5px;
+		}
+
+		.tin{
+			height:500px;
+			width:100%;
+			positive:absolute;
+			border-radius:100%;
+		}
+		.tin h3{
+				top:153px;
+				left:350px;
+				position:relative;
+		}
+		.range{
+			display:inline-block;
+			right:-300px;
+			position:relative;
+			width:50%;	
+		}
+		#content{
+			height:800px;
+		}
+		
+		img{
+			width:50px;
+			display:inline-block:
+			padding:20px;
+			margin:10px;
+		}
+		.image{
+			width:300px;
+			text-align:center;
+			background-color:rgba(0,0,0,0.2);
+			border:none;
+			
+		}
+		#inner2 ul{
+			list-style-type:none;
+			
+		}
+		a{
+			text-decoration:none;
+			color:red;
+			font-size:20px;
+		}
+		#get:hover{color:red;background-color:black;}
+		#but:hover{border-width:5px; color:red;background-color:black;}
+		#go button:hover{color:red;background-color:black;}
+		#down button:hover{color:red;background-color:black;}
+		
+	#inner2	li{
+			display:inline-block;
+			width:100px;
+			padding:30px;
+			margin:10px;
+			padding-bottom:50px;
+			text-align:center;
+			font-size:20px;
+		}
+		#circle{
+			height:70px;
+			width:70px;
+			border-radius:100%;
+			background-color:white;
+		}
+		.child a{
+			color:ghostwhite;
+			font-family:arial, sans-serif;
+			font-size:18px;
+			
+		}
+		#good{
+		padding-left:45px;
+		padding-top:0px;
+		color:black;
+		font-size:16px;
+		}
+		hr{width:60%; height:3px; background-color:red;}
+		
+		.thin1{
+		
+			background-image:url('images/oip7.jpg');
+			background-repeat:no-repeat;
+			background-size:cover;
+			position:relative;
+		}
+		.thin2{
+			background-image:url('images/oip3.jpg');
+			background-repeat:no-repeat;
+			background-size:cover;
+			position:relative;
+			background-position:fixed
+		}
+		.thin3{
+			background-image:url('images/doctor.jpg');
+			background-repeat:no-repeat;
+			background-size:contain;
+			color:black;
+			background-position:fixed
+
+			
+		
+		}
+		.thin4{
+			background-image:url('images/pexelpil.jpg');
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-position:fixed
+		}
+		#hint{
+			height:100px;
+			width:100%;
+			background-color:black;
+			text-align:center;
+			padding-top:4px;
+		}
+		#iner{
+			height:100px;
+			width:100%;
+			background-color:black;
+			text-align:center;
+			padding-top:2px;
+		}
+		#inerer{
+			height:100px;
+			width:100%;
+			background-color:black;
+			text-align:center;
+			height:230px;
+			padding:20px;
+		}
+		#inerer p{
+			font-family:arial, sans-serif;
+			font-size:20px;
+		}
+		#content{
+			background-color:black;
+			text-align:center;
+			padding:20px;
+		}
+		#content p{
+			font-family:arial, sans-serif;
+			font-size:24px;
+		}
+	.horizontal .assistance{
+			text-align:left;
+			
+		}
+		.assistance{
+			list-style-type:none;
+		}
+		button a{color:black; padding:14px;}
+		#parent{
+			height:500px;
+			display:flex;
+			flex-direction:rows;
+			justify-content:space-around;
+		}
+		.boys{
+			width:30%;
+			background-color:ghostwhite;
+			text-align:center;
+			padding:20px;
+		}
+		.boys p{
+			font-family:arial, sans-serif;
+			font-size:20px;
+		}
+		.boys h3{
+			font-family:arial, sans-serif;
+			font-size:24px;
+		}
+		.head{
+			background-image:url('images/healthpexel.jpg');
+			background-size:cover;
+		}
+		.boy{
+			background-image:url('images/.jpg');
+			background-size:cover;
+		}
+		.plan{
+			height:80px;
+			background-color:white;
+			text-align:center;
+			padding:20px;
+		}
+		p{font-size:20px;padding:4px;}
+		.foot{
+			height:350px;
+			background:brown;	
+		}
+		#footer{
+			height:300px;
+			width:400px;
+		}
+		.last{
+			height:300px;
+			background-color:black;
+			display:flex;
+			flex-direction:rows;
+			justify-content:space-around;
+		}
+		.classic{
+			width:20%;
+			
+		}
+		.classic ul{list-style-type:none;
+			padding:20px;
+		}
+		.classic li{
+			padding:10px;
+			color:white;
+			text-align:center;
+			font-family:arial, sans-serif;
+			font-size:16px;
+		}
+		</style>
+	</head>
+	<body>
+	<div class="container">
+	
+		<div class="outer">
+			<div id="firstsection" class="image">
+				<a href="https://facebook.com.ng" target="_blank"><img src="images/images/facebook.png" class="pics" alt="facebook icon"></a>
+				<a href="https://twitter.com" target="_blank"><img src="images/images/twitter.png" class="pics" alt="twitter icon"></a>
+				<a href="https://youtube.com" target="_blank"><img src="images/images/youtube.png" class="pics" alt="instagram icon"></a>
+				<a href="https://tiktok.com" target="_blank"><img src="images/images/ticktok.png" class="pics" alt="tiktok icon"></a>
+			</div>
+		</div>
+		<div id="inner">
+			<div id="inner1"> <img src="images/logoauto.jpg" alt="health logo"><p id="good"></p></div>
+			<div id="inner2">
+				<ul style="list-style-type:none;">
+					<li><a href="">Home</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">Products</a></li>
+					<li><a href="">Provider</a></li>
+					<li><a href="">Contact Us</a></li>
+					<li><a href="">Blog</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="box">
+			<div class="box1">
+			<a id="down" href="#lastsection"><button>Go Down</button></a>
+				<h1> The Smarter<br>Choice<br>is Here</h1>
+				<h2>Swich to Tanwaria's top-tier Health insurere(HMO)-where genuine care meets unparalled service.</h2>
+				<h2>Discover superior,intelligent,and rewarding healthcare solutions.</h2>
+				<br><button><a href="" id="get">Get started</a></button><br><br>
+				<div id="paraone">
+					<div id="circle"></div>
+					<br>
+					<p class="child"><a href="">Hi, my name is Olatanwa your virtual Assistant Welcome to Goodway Health!.<a></p>
+					
+				</div>
+			</div>
+			<div style="width:700px;height:500px;background-image:url('images/health.jpg');background-size:contain;background-postion:top;background-attachment:fixed;background-color:grey;">
+				<img src="images/doctor2.jpg"alt="insurance company image" style="width:200px;height:200px; border:20px solid black;
+				border-style:groove;border-radius:100%;bottom:0px;right:337px;
+				">
+				
+				<img src="images/fruit.jpg"alt="insurance company image" style="width:200px;height:200px; border:20px solid black;
+				border-style:groove;border-radius:100%;bottom:138px;right:480px;
+				">
+				
+				<img src="images/pexel.jpg"alt="insurance company image" style="width:200px;height:200px; border:20px solid black;
+				border-style:groove;border-radius:100%;bottom:-65px;right:526px;
+				">
+			</div>
+		</div>
+		
+		<div class="cover">
+			<div class="cover1 cove">
+				<hr>
+				<h3>BUY A HEALTH PLAN</h3>
+				<p>You desire the best. let's help you find the plan that best suit you.</p>
+				<h4>BUY A HEALTH PLAN</h4>
+			<hr>
+			</div>
+			<div class="cover2 cove">
+				<hr>
+				<h3>HELLO DOC!</h3>
+				<p>Not sure if your symptoms are a big deal? Talk to a medical doctor now over the phone now.</p>
+				<h4>Say Hello</h4>
+				<hr>
+			</div>
+			<div class="cover3 cove">
+				<hr>
+				<h3>FIND A PROVIDER</h3>
+				<p>Find hospitals, pharmacies, gyms and other providers near your preferred location.</p>
+				<h4>Locate a provider</h4>
+				<hr>
+			</div>
+			<div class="cover4 cove">
+				<hr>
+				<h3>BECOME A PROVIDER</h3>
+				<p>We have a track record of prompt claim payment. join us today and be glad you did.</p>
+				<h4>Join our provider network</h4>
+				<hr>
+			</div>
+		</div>
+		
+		<div class="boxes">
+			<h1>Gong the extra mile just for YOU.</h1>
+			<p>Experience the care that meets your needs. see how ere're better experience tailored for You</p>
+		
+		</div>
+		
+		<div class="range">
+			<div class="thin1 tin"></div>
+				<div id="hint"><h1>Exclusive Benefits</h1></div>
+			<div class="thin2 tin"></div>
+				<div id="iner"><h1>Advanced Pharmacy Benefits</h1></div>
+			<div class="thin3 tin"><h3>For Small and<br>Large Companies<br>Comprehensive<br> health services<br>to create a happy<br>and healthy workforce</h3>
+			</div>
+				<div id="inerer"><h1>Employee Assistance Program</h1>
+				<br><p>Your employees and their spouses have access to physical and mental wellness programs,counselling services,nutritional centers,gyms etc.</p>
+				</div>
+			<div class="thin4 tin"></div>
+		</div>	
+		<div id="content">
+			<h2>Talk to a medical Doctor 24/7<br>(Telemedicine)</h2>
+			<p>can't vist the hospital physically?<br>Not sure your symptoms are a big deal?<br>
+			We've got you...<br>Talk to a doctor via the app anywhere you are.
+			</p><br><br>
+			<h4>GET ASSISTANCE WITH:</h4>
+			<ul class="assistance">
+				<li>Diagnosis</li>
+				<hr .class="horizontal">
+				<li>Drug Prescription</li>
+				<hr .class="horizontal">
+				<li>Emergencies and First Aid</li>
+				<hr .class="horizontal">
+				<li>Health Tips</li>
+				<hr .class="horizontal">
+				<li>Hospital refferals and much more</li>
+			</ul><br>
+			<button><a href="" target="_self" id="but">Talk to a Doctor Now</a></button>
+		</div>
+		<div class="plan">
+			<h1> LEARN MORE ABOUT OUR PLANS</h1>
+		</div>
+		<div id="parent">
+			<div class="boys boy">
+				<h3>For Individual and Families</h3>
+				<p>Don't leave anything to chance. Buy a plan to enjoy numerous benefits to live happy and healthier life</p>
+				<br><br><br>
+				<hr>
+				<br><h3>For Senior Citizens</h3><p>Show your loved ones you care! Buy a plan for your aged parents to enjoy more happy moments with them.</p>
+			</div>
+			<div class="boys head">
+				<h3>For (C R I) Coperate, Retail and International</h3>
+				<p>We offer coperate, Retail and international plans and all our plan designed to provide similar benefits with the only differences in the extent of access each of the plans. The plans cover you for one year.</p> 
+				
+				<hr>
+				
+			</div>
+			<div class="boys header">
+				<h3>For Individual and Families</h3>
+				<p>Don't leave anything to chance. Buy a plan to enjoy numerous benefits to live happy and healthier life</p>
+				<br><br><br>
+				<hr>
+				<br><h3>For Senior Citizens</h3><p>Show your loved ones you care! Buy a plan for your aged parents to enjoy more happy moments with them.</p>
+			</div>
+		</div>
+		
+		<hr>
+		
+		<div class="foot">
+			<div id="footer">
+				<iframe width="400" height="300" style="border-radius:50px;" src="https://www.youtube.com/embed/cgHBfcO8f8I?si=wVF1-q6dnJx8UnIm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+		</div>
+		<hr>
+		<div class="last">
+				<div class="classic">
+					<ul>
+						<li><h4>Legal</h4></li>
+						<li>Privacy Policy</li>
+						<li>Terms and Conditions</li>
+					</ul>
+				</div>
+				<div class="classic">
+					<ul>
+						<li><h4>Company</h4></li>
+						<li>Health plans</li>
+						<li>Our Advantage</li>
+						<li>Speak to Doctor</li>
+					</ul>
+				</div>
+				<div class="classic">
+					<ul>
+						<li><h4>Quick find</h4></li>
+						<li>FAQs</li>
+						<li>Our Blog</li>
+						<li>Find a Provider</li>
+					</ul>
+				</div>
+				<div class="classic">
+					<ul>
+						<li><h4>Join Us</h4></li>
+						<li>Careers</li>
+						<li>Pharmacy Benefits</li>
+						<li>Investor Portal</li>
+					</ul>
+						<h5>Copyright @Godway health.</h5>
+				</div>
+				
+		</div>
+		<a id="go" href="#firstsection"><button>Go Up</button></a>
+			<hr>
+		<div class="outer">
+			<div id="lastsection" class="image">
+				<a href="https://facebook.com.ng" target="_blank"><img src="images/images/facebook.png" class="pics" alt="facebook icon"></a>
+				<a href="https://twitter.com" target="_blank"><img src="images/images/twitter.png" class="pics" alt="twitter icon"></a>
+				<a href="https://youtube.com" target="_blank"><img src="images/images/youtube.png" class="pics" alt="instagram icon"></a>
+				<a href="https://tiktok.com" target="_blank"><img src="images/images/ticktok.png" class="pics" alt="tiktok icon"></a>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
